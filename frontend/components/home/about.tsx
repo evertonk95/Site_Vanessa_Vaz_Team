@@ -12,7 +12,7 @@ export function About() {
                         {/* Placeholder for Vanessa's photo */}
                         <div className="absolute inset-0 bg-zinc-900 border border-zinc-800">
                             <img
-                                src="/Site_Vanessa_Vaz_Team/vanessa.png"
+                                src="/Site_Vanessa_Vaz_Team/sobre-vanessa.jpeg"
                                 alt="Vanessa Vaz"
                                 className="w-full h-full object-cover"
                             />
