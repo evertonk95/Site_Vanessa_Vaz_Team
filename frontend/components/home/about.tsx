@@ -10,8 +10,12 @@ export function About() {
                 <div className="flex flex-col md:flex-row items-center gap-12 md:gap-20">
                     <div className="w-full md:w-1/2 relative aspect-[3/4] md:aspect-square bg-zinc-800 rounded-2xl overflow-hidden shadow-2xl">
                         {/* Placeholder for Vanessa's photo */}
-                        <div className="absolute inset-0 flex items-center justify-center bg-zinc-900 border border-zinc-800">
-                            <span className="text-zinc-600 font-display text-xl uppercase tracking-widest">Foto Vanessa Vaz</span>
+                        <div className="absolute inset-0 bg-zinc-900 border border-zinc-800">
+                            <img
+                                src="/Site_Vanessa_Vaz_Team/vanessa.png"
+                                alt="Vanessa Vaz"
+                                className="w-full h-full object-cover"
+                            />
                         </div>
                         {/* Decorative element */}
                         <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-brand-neon rounded-full blur-2xl opacity-50" />
